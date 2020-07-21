@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Yahoo App Test Suite" parallel="false">
+<test name="Yahoo App Test">
+
+<paramter name="url" value="https://login.yahoo.com/"></paramter>
+<parameter name= "emailId" value= "phaneendraphani22@yahoo.in"></paramter>
+<parameter name= "password" value= "mammydaddy@"></paramter>
+
+		
+		<classes>
+			<class name="TestNg.LoginYahoo"></class>
+		</classes>	
+		
+		
+	</test>
+</suite>
